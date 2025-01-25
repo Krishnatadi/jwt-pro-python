@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="jwt-pro",
-    version="1.0.0",
+    name="jwt_pro",
+    version="1.0.1",
     author="krishna Tadi",
     description="JWT Pro is a package for generating and verifying JSON Web Tokens (JWTs). It supports AES encryption and HMAC signatures, enabling secure user authentication and data transmission. The package is highly customizable, with options for adding encryption, defining headers and payloads, and validating tokens.",
     long_description=open("README.md").read(),

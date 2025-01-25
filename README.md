@@ -1,6 +1,12 @@
+![PyPI Version](https://img.shields.io/pypi/v/jwt-pro.svg)
+![PyPI - Downloads](https://img.shields.io/pypi/dd/jwt-pro)
+![Dependencies](https://img.shields.io/librariesio/release/pypi/jwt-pro)
+![PyPI - License](https://img.shields.io/pypi/l/jwt-pro)
+
+
 # JWT Pro - JWT Generation & Verification with AES Encryption
 
-`JWT Pro` is a Python package for generating and verifying JSON Web Tokens (JWTs). It supports AES encryption and HMAC signatures, enabling secure user authentication and data transmission. The package is highly customizable, with options for adding encryption, defining headers and payloads, and validating tokens.
+Welcome to `JWT Pro`, your go-to Python package for creating and verifying JSON Web Tokens (JWTs). With support for AES encryption and HMAC signatures, it ensures your user authentication and data transmission are as secure as possible. The package is highly customizable, letting you tweak encryption settings, headers, payloads and validation to fit your needs perfectly.
 
 ---
 
@@ -207,15 +213,6 @@ If you have an idea for a new feature, please open a feature request in the Issu
 ## Issues and Feedback
 For issues, feedback, and feature requests, please open an issue on our [GitHub Issues page](http://github.com/krishnatadi/jwt-pro-python/issues). We actively monitor and respond to community feedback.
 
-
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Krishnatadi/jwt-pro-python/blob/main/LICENSE) file for details.
-
-
 ---
 
 ## FAQ (Frequently Asked Questions)
@@ -329,9 +326,13 @@ Yes, JWT Pro is designed to be secure and efficient. However, before using it in
 
 **Answer:**  
 To debug JWT-related errors:
-1. Check the token structure by manually decoding it using an online tool (e.g., [jwt.io](https://jwt.io/)).
+1. Check the token structure by manually decoding it using an online tool (e.g., [jwt.io](https://jwt.io/) or [TWDecoder](https://www.tialwizards.in/p/jwt-decoder.html)).
 2. Log the generated tokens, headers, and payloads to verify their correctness.
 3. Ensure that the secret key used in both generation and verification is correct.
 4. If encryption is used, ensure that the encryption and decryption processes are correctly implemented.
 
+---
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Krishnatadi/jwt-pro-python/blob/main/LICENSE) file for details.
